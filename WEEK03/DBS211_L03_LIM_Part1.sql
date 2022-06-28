@@ -11,7 +11,7 @@ SELECT customernumber as "Customer Number", customername as "Customer Name", con
 FROM dbs211_customers
 WHERE city = 'Madrid'
 ORDER BY customernumber DESC;
-
+   
 -- Q2 SOLUTION --
 SELECT DISTINCT customernumber 
 FROM dbs211_payments 

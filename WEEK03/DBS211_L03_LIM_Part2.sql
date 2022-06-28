@@ -11,7 +11,7 @@ FROM dbs211_employees;
 ALTER TABLE employees
 ADD CONSTRAINT employees_pk
 PRIMARY KEY (employeenumber);
-
+   
 ALTER TABLE employees
 ADD CONSTRAINT employees_fk
 FOREIGN KEY (REPORTSTO)
